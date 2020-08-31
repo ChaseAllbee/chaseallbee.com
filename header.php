@@ -11,7 +11,7 @@
 <body style="display:none;">
 <header>
 
-	<a href="/chaseallbee.com/" animation="slide-in" animation-delay=".001s">
+	<a href="/" animation="slide-in" animation-delay=".001s">
 	<?php
 		$color_background = '';
 		$url = $_SERVER['REQUEST_URI'];
@@ -23,7 +23,7 @@
 			echo '<img class="circle" src="img/kk-2.png" />';
 		}
 	?></a>
-	<a class="bordered" href="/chaseallbee.com/"><p class="<?php echo $color_background;?>" animation="slide-in" animation-delay=".2s">Home</p></a>
+	<a class="bordered" href="/"><p class="<?php echo $color_background;?>" animation="slide-in" animation-delay=".2s">Home</p></a>
 	<a class="bordered" href="about"><p class="<?php echo $color_background;?>" animation="slide-in" animation-delay=".3s">About</p></a>
 </header>
 <div class="fader">
